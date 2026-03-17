@@ -22,7 +22,7 @@ void init_table(int row, int col,int max_ball,int* posx,int* posy){
     }
     table[p1_pos][1] = '|';
     table[p2_pos][col-2] = '|';
-    table[1][p3_pos] = '_';
+    table[1][p3_pos] = '_'; // ‾
     table[row-2][p4_pos] = '_';
     for(int i=0;i<max_ball;i++){
         table[posy[i]][posx[i]] = 'O';
